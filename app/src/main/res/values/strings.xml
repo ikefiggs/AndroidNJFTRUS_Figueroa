@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidNJFTRUS_Figueroa</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_home_screen" />
+    <string name="find_food_trucks">FIND FOOD TRUCKS</string>
+    <string name="passer" />
+    <string name="truck_schedules" />
+    <string name="menu" />
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="grab">Grab</string>
+    <string name="insert">Insert</string>
+    <string name="please_enter_details_below">Please enter details below:</string>
+
+
+</resources>

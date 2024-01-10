@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView" type="id" />
+    <item name="passer" type="id" />
+    <item name="textBox" type="id" />
+    <item name="button1" type="id" />
+    <item name="button4" type="id" />
+</resources>

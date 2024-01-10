@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-425dp"
+        android:onClick="buttonClicked"
+        android:text="@string/find_food_trucks"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-700dp"
+        android:onClick="buttonClicked"
+        android:text="CONTACTS"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/schedules"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-550dp"
+        android:contentDescription="@string/truck_schedules"
+        android:onClick="buttonClicked"
+        android:text="TRUCK SCHEDULES"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find"
+        app:layout_constraintVertical_bias="0.181"
+        tools:text="truck schedules" />
+
+    <Button
+        android:id="@+id/schedulesb"
+        android:layout_width="182dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-600dp"
+        android:contentDescription="@string/truck_schedules"
+        android:onClick="buttonClicked"
+        android:text="Create User Info"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find"
+        app:layout_constraintVertical_bias="0.54"
+        tools:text="truck schedules" />
+
+    <Button
+        android:id="@+id/foodmenu"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-700dp"
+        android:contentDescription="@string/truck_schedules"
+        android:onClick="buttonClicked"
+        android:text="FOOD MENU"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find"
+        app:layout_constraintVertical_bias="0.572"
+        tools:text="truck schedules" />
+
+    <Button
+        android:id="@+id/realfoodmenu"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginBottom="-850dp"
+        android:contentDescription="@string/truck_schedules"
+        android:onClick="buttonClicked"
+        android:text="Payment Plan"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find"
+        app:layout_constraintVertical_bias="0.474"
+        tools:text="truck schedules" />
+
+    <EditText
+        android:id="@+id/enterZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-128dp"
+        android:ems="10"
+        android:hint="Enter any New Jersey Zip Code"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/find"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/find" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="233dp"
+        android:layout_height="209dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterZip"
+        app:srcCompat="@drawable/truckimage" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="391dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterZip"
+        app:srcCompat="@drawable/title1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="178dp"
+        android:textSize="24sp"
+        android:text="NEW JERSEY FOOD TRUCKS R'US"
+        app:layout_constraintBottom_toTopOf="@+id/enterZip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
